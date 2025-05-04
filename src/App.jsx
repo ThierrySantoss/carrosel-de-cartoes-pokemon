@@ -57,7 +57,7 @@ function App() {
                 <img
                   className="max-h-72 max-w-full p-5 max-[500px]:max-h-60"
                   src={pokemons[id].imagem}
-                  alt="Pikachu"
+                  alt={pokemons[id].nome}
                 />
               </div>
 
